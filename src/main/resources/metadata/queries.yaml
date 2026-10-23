@@ -1,0 +1,9 @@
+group: io.kestra.plugin.looker.queries
+name: "queries"
+title: "Queries"
+description: "Run inline queries and SQL Runner queries in Looker."
+body: "Tasks to execute inline Looker model/view queries and direct SQL queries via Looker's SQL Runner."
+videos: []
+createdBy: "Kestra Core Team"
+managedBy: "Kestra Core Team"
+

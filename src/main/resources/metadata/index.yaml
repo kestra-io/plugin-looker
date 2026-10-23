@@ -1,8 +1,8 @@
 group: io.kestra.plugin.looker
 name: "looker"
 title: "Looker"
-description: "Looker plugin for Kestra"
-body: ""
+description: "Looker plugin for Kestra to run queries, manage Looks, render dashboards and Looks, execute schedules, and deploy projects."
+body: "The Looker plugin allows you to interact with the Looker API 4.0. You can run inline and SQL Runner queries, fetch or execute saved Looks, list Looks and dashboards by folder or title, render dashboards and Looks to PDF or image files, run scheduled plans, deploy LookML projects, and trigger flows on new Look results."
 videos: []
 createdBy: "Kestra Core Team"
 managedBy: "Kestra Core Team"
