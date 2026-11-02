@@ -39,14 +39,23 @@
 
 ## Why
 
-- What user problem does this solve? Teams need a concrete starting point for building and validating new Kestra plugins without recreating the same project scaffolding from scratch.
-- Why would a team adopt this plugin in a workflow? It gives plugin authors a ready-made reference repo they can adapt alongside their own build, test, and publishing workflow.
-- What operational/business outcome does it enable? It shortens plugin delivery time, reduces setup mistakes, and makes internal or partner plugin development more repeatable.
+- What user problem does this solve? Teams need to automate Looker business intelligence workflows within Kestra, including running queries, rendering dashboards for automated distribution, executing scheduled reports, triggering flows on Look data changes, and automating LookML deployments.
+- Why would a team adopt this plugin in a workflow? It enables end-to-end data pipeline orchestration connecting upstream data transformations directly to downstream BI assets, reporting, and alerting.
+- What operational/business outcome does it enable? Reliable automation of BI reports, continuous delivery for LookML projects, and event-driven alerting on business metrics.
 
 ## What
 
 - Provides plugin components under `io.kestra.plugin.looker`.
-- Includes classes such as `Example`, `Trigger`.
+- Includes tasks and triggers for Looker API 4.0:
+  - `io.kestra.plugin.looker.queries.Run`
+  - `io.kestra.plugin.looker.queries.SqlRun`
+  - `io.kestra.plugin.looker.looks.Run`
+  - `io.kestra.plugin.looker.looks.List`
+  - `io.kestra.plugin.looker.looks.Trigger`
+  - `io.kestra.plugin.looker.dashboards.List`
+  - `io.kestra.plugin.looker.dashboards.Render`
+  - `io.kestra.plugin.looker.schedules.RunOnce`
+  - `io.kestra.plugin.looker.projects.Deploy`
 
 ## Running Kestra locally with this plugin
 

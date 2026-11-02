@@ -1,0 +1,8 @@
+group: io.kestra.plugin.looker.looks
+name: "looks"
+title: "Looks"
+description: "Run, list, and trigger workflows on Looker saved Looks."
+body: "Tasks and triggers to execute saved Looks with optional filter overrides, list Looks by folder or title, and trigger executions on new Look data."
+videos: []
+createdBy: "Kestra Core Team"
+managedBy: "Kestra Core Team"

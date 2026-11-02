@@ -1,0 +1,9 @@
+group: io.kestra.plugin.looker.projects
+name: "projects"
+title: "Projects"
+description: "Deploy LookML projects and Git branches to production in Looker."
+body: "Tasks to deploy LookML projects or specific branches/refs to production via the Looker API."
+videos: []
+createdBy: "Kestra Core Team"
+managedBy: "Kestra Core Team"
+

@@ -1,0 +1,9 @@
+group: io.kestra.plugin.looker.schedules
+name: "schedules"
+title: "Schedules"
+description: "Trigger and execute scheduled plans in Looker."
+body: "Tasks to execute existing or ad-hoc scheduled plans on demand via the Looker API."
+videos: []
+createdBy: "Kestra Core Team"
+managedBy: "Kestra Core Team"
+
